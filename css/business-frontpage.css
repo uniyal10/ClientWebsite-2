@@ -6,6 +6,17 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Sriracha&display=swap'); body {
   padding-top: 56px;
   font-family: 'Sriracha', cursive;
- background-color: #f7e4e8;
+ background-color: white;
+}
+.navbar-toggler-icon{
+  color:black;
 }
 
+@media(max-width:600px){
+  .navbar-brand{
+   margin-left: 0px;
+  }
+  .navbar-brand h1{
+    font-size: 25px;
+  }
+}
